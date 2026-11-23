@@ -1,0 +1,28 @@
+Exit module count: 1
+CA name: LabRootCA
+Sanitized CA short name (DS name): LabRootCA
+CA type: 3 -- Stand-alone Root CA
+    ENUM_STANDALONE_ROOTCA -- 3
+CA cert count: 1
+KRA cert count: 0
+KRA cert used count: 0
+CA cert[0]: 3 -- Valid
+CA cert version[0]: 0 -- V0.0
+CA cert verify status[0]: 0
+CRL[0]: 3 -- Valid
+CRL Publish Status[0]: 5
+    CPF_BASE -- 1
+    CPF_COMPLETE -- 4
+DNS Name: WIN-NK47GTS9TBA
+Advanced Server: 1
+CA locale name: it-IT
+Subject Template OIDs: 1.2.840.113549.1.9.1
+2.5.4.3
+2.5.4.11
+2.5.4.10
+2.5.4.7
+2.5.4.8
+0.9.2342.19200300.100.1.25
+2.5.4.6
+
+CertUtil: -CAInfo command completed successfully.

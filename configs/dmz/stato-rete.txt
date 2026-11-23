@@ -1,0 +1,7 @@
+lo               UNKNOWN        127.0.0.1/8 ::1/128 
+enp0s3           UP             192.168.57.10/24 fe80::a00:27ff:fe58:a5f0/64 
+tun0             UNKNOWN        10.8.0.1/24 fe80::1228:d101:93bf:3411/64 
+default via 192.168.57.254 dev enp0s3 proto static 
+10.8.0.0/24 dev tun0 proto kernel scope link src 10.8.0.1 
+192.168.57.0/24 dev enp0s3 proto kernel scope link src 192.168.57.10 
+net.ipv4.ip_forward = 1

@@ -1,0 +1,10 @@
+Ruoli e funzionalità installati su Windows Server 2012 R2 (Get-WindowsFeature)
+
+AD-Certificate              Active Directory Certificate Services
+ADCS-Cert-Authority         Certification Authority
+RSAT-ADCS / RSAT-ADCS-Mgmt  Strumenti di gestione della Certification Authority
+FileAndStorage-Services     File and Storage Services
+FS-SMB1                     SMB 1.0/CIFS: RIMOSSO per hardening (Remove-WindowsFeature FS-SMB1)
+NET-Framework-45-Features   .NET Framework 4.5
+PowerShell 4.0 / ISE        Windows PowerShell
+Server-Gui-Shell            Interfaccia grafica

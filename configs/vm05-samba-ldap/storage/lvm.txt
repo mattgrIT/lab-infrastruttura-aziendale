@@ -1,0 +1,10 @@
+  PV         VG Fmt  Attr PSize   PFree
+  /dev/md0   A  lvm2 a--   14.98g    0 
+  /dev/md1   B  lvm2 a--  <14.98g    0 
+  VG #PV #LV #SN Attr   VSize   VFree
+  A    1   2   0 wz--n-  14.98g    0 
+  B    1   1   0 wz--n- <14.98g    0 
+  LV     VG Attr       LSize   Pool Origin Data%  Meta%  Move Log Cpy%Sync Convert
+  film   A  -wi-ao----   7.98g                                                    
+  musica A  -wi-ao----   7.00g                                                    
+  doc    B  -wi-ao---- <14.98g                                                    

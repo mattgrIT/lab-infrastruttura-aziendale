@@ -1,0 +1,44 @@
+NAME           MAJ:MIN RM  SIZE RO TYPE  MOUNTPOINTS
+loop0            7:0    0 66.8M  1 loop  /snap/core24/1643
+loop1            7:1    0 66.8M  1 loop  /snap/core24/2124
+loop2            7:2    0  1.5M  1 loop  /snap/hwctl/131
+loop3            7:3    0  1.5M  1 loop  /snap/hwctl/123
+loop4            7:4    0 50.3M  1 loop  /snap/snapd/27738
+loop5            7:5    0 44.7M  1 loop  /snap/snapd/28254
+sda              8:0    0   25G  0 disk  
+├─sda1           8:1    0    1G  0 part  /boot/efi
+├─sda2           8:2    0    5G  0 part  /boot
+└─sda3           8:3    0    5G  0 part  /
+sdb              8:16   0   10G  0 disk  
+├─sdb1           8:17   0    5G  0 part  
+│ └─md0          9:0    0   15G  0 raid5 
+│   ├─A-musica 252:1    0    7G  0 lvm   /mnt/musica
+│   └─A-film   252:2    0    8G  0 lvm   /mnt/film
+└─sdb2           8:18   0    5G  0 part  
+  └─md1          9:1    0   15G  0 raid5 
+    └─B-doc    252:0    0   15G  0 lvm   /mnt/doc
+sdc              8:32   0   10G  0 disk  
+├─sdc1           8:33   0    5G  0 part  
+│ └─md0          9:0    0   15G  0 raid5 
+│   ├─A-musica 252:1    0    7G  0 lvm   /mnt/musica
+│   └─A-film   252:2    0    8G  0 lvm   /mnt/film
+└─sdc2           8:34   0    5G  0 part  
+  └─md1          9:1    0   15G  0 raid5 
+    └─B-doc    252:0    0   15G  0 lvm   /mnt/doc
+sdd              8:48   0   10G  0 disk  
+├─sdd1           8:49   0    5G  0 part  
+│ └─md0          9:0    0   15G  0 raid5 
+│   ├─A-musica 252:1    0    7G  0 lvm   /mnt/musica
+│   └─A-film   252:2    0    8G  0 lvm   /mnt/film
+└─sdd2           8:50   0    5G  0 part  
+  └─md1          9:1    0   15G  0 raid5 
+    └─B-doc    252:0    0   15G  0 lvm   /mnt/doc
+sde              8:64   0   10G  0 disk  
+├─sde1           8:65   0    5G  0 part  
+│ └─md0          9:0    0   15G  0 raid5 
+│   ├─A-musica 252:1    0    7G  0 lvm   /mnt/musica
+│   └─A-film   252:2    0    8G  0 lvm   /mnt/film
+└─sde2           8:66   0    5G  0 part  
+  └─md1          9:1    0   15G  0 raid5 
+    └─B-doc    252:0    0   15G  0 lvm   /mnt/doc
+sr0             11:0    1 1024M  1 rom   

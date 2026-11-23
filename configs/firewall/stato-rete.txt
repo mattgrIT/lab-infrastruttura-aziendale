@@ -1,0 +1,12 @@
+lo               UNKNOWN        127.0.0.1/8 ::1/128 
+enp0s3           UP             10.0.2.15/24 metric 100 fe80::a00:27ff:fe1a:9b10/64 
+enp0s8           UP             192.168.56.254/24 fe80::a00:27ff:feb4:1d6e/64 
+enp0s9           UP             192.168.57.254/24 fe80::a00:27ff:fe54:4329/64 
+default via 10.0.2.2 dev enp0s3 proto dhcp src 10.0.2.15 metric 100 
+10.0.2.0/24 dev enp0s3 proto kernel scope link src 10.0.2.15 metric 100 
+10.0.2.2 dev enp0s3 proto dhcp scope link src 10.0.2.15 metric 100 
+10.8.0.0/24 via 192.168.57.10 dev enp0s9 proto static 
+192.168.1.1 via 10.0.2.2 dev enp0s3 proto dhcp src 10.0.2.15 metric 100 
+192.168.56.0/24 dev enp0s8 proto kernel scope link src 192.168.56.254 
+192.168.57.0/24 dev enp0s9 proto kernel scope link src 192.168.57.254 
+net.ipv4.ip_forward = 1

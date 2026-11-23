@@ -1,0 +1,10 @@
+Personalities : [raid4] [raid5] [raid6] 
+md0 : active raid5 sdd1[2] sde1[4] sdb1[0] sdc1[1]
+      15713280 blocks super 1.2 level 5, 512k chunk, algorithm 2 [4/4] [UUUU]
+      bitmap: 0/1 pages [0KB], 65536KB chunk
+
+md1 : active raid5 sdd2[2] sdc2[1] sdb2[0] sde2[4]
+      15707136 blocks super 1.2 level 5, 512k chunk, algorithm 2 [4/4] [UUUU]
+      bitmap: 0/1 pages [0KB], 65536KB chunk
+
+unused devices: <none>
